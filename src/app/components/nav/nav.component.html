@@ -1,0 +1,51 @@
+<mat-drawer-container class="container" autosize>
+    <mat-drawer #drawer class="sidenav" mode="side">
+        <img src="#" alt="Imagem de navegação">
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="acesso">
+                <i class="material-icons">ccesso</i>
+                Acesso
+            </a>
+            <a mat-list-item routerLink="cadastro">
+                <i class="material-icons">person</i>
+                Cadastro
+            </a>
+            <a mat-list-item routerLink="configuracoes">
+                <i class="material-icons">person</i>
+                Configurações
+            </a>
+            
+            <a mat-list-item routerLink="Entada-de-notas">
+                <i class="material-icons">person</i>
+                Entrada de notas
+            </a>
+            <a mat-list-item routerLink="faturamento">
+                <i class="material-icons">person</i>
+                Faturamento
+            </a>
+            <a mat-list-item routerLink="financeiro">
+                <i class="material-icons">person</i>
+                Financeiro
+            </a>
+            <a mat-list-item routerLink="relatorios">
+                <i class="material-icons">person</i>
+                Relatorios
+            </a>
+            <a mat-list-item routerLink="reservas">
+                <i class="material-icons">person</i>
+                Reservas
+            </a>
+            
+         
+        </mat-nav-list>
+    </mat-drawer>
+  
+    <div class="sidenav-content">
+        
+      <button class="menu mat-elevation-z8" (click)="drawer.toggle()" mat-icon-button>
+          <mat-icon>menu</mat-icon>
+      </button>
+      <router-outlet></router-outlet>
+    </div>
+  
+  </mat-drawer-container>
