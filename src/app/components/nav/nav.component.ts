@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class NavComponent implements OnInit{
   constructor(private router: Router){ }
   ngOnInit(): void {
-    this.router.navigate(['acesso']) // navegando até o componente acesso, ao clicar
+    this.router.navigate(['home']) // navegando até o componente acesso, ao clicar
   }
   
 
