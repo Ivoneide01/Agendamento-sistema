@@ -3,3 +3,28 @@
     margin: 0rem auto;
     background-color: rgb(212, 163, 14);
 }
+
+.img-logo {
+    margin-left: auto;
+  }
+
+.example-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+.img-total {
+    margin: auto;
+  }
+
+.app-home {
+    width: 200px;
+    height: 200px;
+    font-size: 12px; 
+  }
+
+/* Reduz o tamanho do cartão do calendário */
+.calendar-card {
+    max-width: 400px; /* Defina a largura máxima desejada */
+    max-height: auto; /* Defina a altura máxima desejada */
+  }

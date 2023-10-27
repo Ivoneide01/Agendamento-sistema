@@ -33,6 +33,10 @@ import { MatIconModule } from '@angular/material/icon'
 import { MatListModule } from '@angular/material/list'
 import { MatCardModule } from '@angular/material/card';
 import { HomeComponent } from './components/home/home.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MAT_DATE_LOCALE } from '@angular/material/core';
+import { MatNativeDateModule } from '@angular/material/core';
+
 
 
 
@@ -50,7 +54,8 @@ import { HomeComponent } from './components/home/home.component';
     ConfiguracoesComponent,
     ComponentsComponent,
     SairComponent,
-    HomeComponent
+    HomeComponent,
+    
 
   ],
   imports: [
@@ -71,9 +76,11 @@ import { HomeComponent } from './components/home/home.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
+    MatDatepickerModule,
+    MatNativeDateModule
     
   ],
-  providers: [],
+  providers: [{provide: MAT_DATE_LOCALE, useValue: 'en-GB'},],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

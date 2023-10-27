@@ -1,8 +1,19 @@
-<mat-card class="card-home">
+<mat-card class="example-card">
     <mat-card-header>
-      <div mat-card-avatar class=""></div>
-      <mat-card-title>Avante</mat-card-title>
-      <mat-card-subtitle>Agendamento</mat-card-subtitle>
+      <mat-card-title-group>
+        <mat-card-title>Avante</mat-card-title>
+        <mat-card-subtitle>Agendamento</mat-card-subtitle>
+      </mat-card-title-group>
     </mat-card-header>
+
+  </mat-card><mat-card class="calendar-card">
+    <mat-card-header>
+      <mat-card-title>Calendário</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="calendar-card-ajuste">
+      <!-- Insira o calendário aqui -->
+      <mat-calendar [(selected)]="selected"></mat-calendar>
+    </mat-card-content>
   </mat-card>
+
   
