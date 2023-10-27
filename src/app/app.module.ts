@@ -36,6 +36,7 @@ import { HomeComponent } from './components/home/home.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { MatNativeDateModule } from '@angular/material/core';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 
@@ -77,7 +78,8 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatListModule,
     MatCardModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatGridListModule
     
   ],
   providers: [{provide: MAT_DATE_LOCALE, useValue: 'en-GB'},],

@@ -25,6 +25,7 @@
 
 /* Reduz o tamanho do cartão do calendário */
 .calendar-card {
-    max-width: 400px; /* Defina a largura máxima desejada */
+    max-width: 600px; /* Defina a largura máxima desejada */
     max-height: auto; /* Defina a altura máxima desejada */
   }
+
