@@ -24,8 +24,32 @@
   }
 
 /* Reduz o tamanho do cartão do calendário */
-.calendar-card {
-    max-width: 600px; /* Defina a largura máxima desejada */
-    max-height: auto; /* Defina a altura máxima desejada */
+.calendar-card-ajuste {
+  width: 300px; /* Defina a largura desejada */
+  height: 400px; /* Defina a altura desejada */
+  margin-top: 10px; /* Ajuste o valor de margem superior conforme necessário */
+}
+
+
+  .example-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
   }
+  
+  .calendar-container {
+    text-align: center;
+  }
+  .title-agendamento{
+    text-align: right; /* Alinha o texto à esquerda */
+  }
+  .title-agendamento-calendar {
+    color: orange;
+  }
+  
+  
+  
+  
 

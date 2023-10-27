@@ -37,6 +37,13 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSortModule} from '@angular/material/sort';
+import {NgFor} from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+
+
+
 
 
 
@@ -56,6 +63,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     ComponentsComponent,
     SairComponent,
     HomeComponent,
+    ReservasComponent,
+    
+    
     
 
   ],
@@ -79,7 +89,19 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatCardModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatGridListModule
+    MatGridListModule,
+    MatSortModule,
+    NgFor,
+    FlexLayoutModule,
+  
+    
+    
+    
+
+    
+    
+    
+    
     
   ],
   providers: [{provide: MAT_DATE_LOCALE, useValue: 'en-GB'},],

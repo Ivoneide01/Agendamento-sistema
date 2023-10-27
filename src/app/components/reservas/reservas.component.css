@@ -1,0 +1,17 @@
+.table-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Opcional: Define a altura total da tela para centralizar verticalmente */
+  }
+  .table-container{
+    background-color: black;
+  }
+  .title-reserva-sub{
+    height: 20vh; 
+    width: 30vh;
+
+
+
+  }
+

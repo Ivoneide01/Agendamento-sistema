@@ -1,1 +1,23 @@
-<p>reservas works!</p>
+<mat-card-subtitle class="title-reservas">Total de reservas</mat-card-subtitle>
+<div class="table-container">
+  <mat-card-subtitle class="title-reserva-sub">Total de reservas</mat-card-subtitle>
+  <table matSort (matSortChange)="sortData($event)">
+    <tr>
+      <th mat-sort-header="name">Total de reservas</th>
+      <th mat-sort-header="calories">Hoje</th>
+      <th mat-sort-header="fat">Nesta semana</th>
+      <th mat-sort-header="fat">Neste Mês</th>
+    </tr>
+
+    <tr *ngFor="let dessert of sortedData">
+      <td>{{dessert.name}}</td>
+      <td>{{dessert.calories}}</td>
+      <td>{{dessert.fat}}</td>
+      <td>{{dessert.fat}}</td>
+    </tr>
+  </table>
+</div>
+
+<div class="chart-container">
+  <canvas id="myPieChart"></canvas>
+</div>
