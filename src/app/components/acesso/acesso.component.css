@@ -1,0 +1,17 @@
+.card-container {
+    display: flex;
+    justify-content: space-between; /* Espaço igual entre os cards */
+  }
+  
+  .example-card {
+    max-width: calc(30% - 2px); /* Ajuste a largura máxima conforme necessário */
+    margin-bottom: 0; /* Remova a margem vertical entre os cards */
+  }
+  
+  .card-image {
+    max-width: 100%; /* Impede que as imagens ultrapassem a largura do cartão */
+  }
+  .example-header-image {
+    background-image: url('/projeto-agendamento/src/assets/Nid.png');
+    background-size: cover;
+  }
