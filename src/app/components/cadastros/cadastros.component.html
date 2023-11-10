@@ -1,1 +1,23 @@
-<p>cadastros works!</p>
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>
+<mat-chip-listbox class="mat-mdc-chip-set-stacked" aria-label="Color selection">
+    <mat-card-title><h1>Oque Oferecemos:</h1></mat-card-title>
+
+    <mat-chip-option *ngFor="let chip of availableColors" selected [color]="chip.color">
+      {{chip.name}}
+    </mat-chip-option>
+  </mat-chip-listbox>
+</mat-grid-tile>
+
+<mat-grid-tile>
+    
+    <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Deixe sua mensagem</mat-label>
+      <input matInput #message maxlength="256" placeholder="Ex. I need help with...">
+      <mat-hint align="start"><strong>iremos responder em até 12 horas</strong> </mat-hint>
+      <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+    </mat-form-field>
+  </form></mat-grid-tile>
+  
+</mat-grid-list>

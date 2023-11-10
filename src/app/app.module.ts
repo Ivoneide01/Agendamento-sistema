@@ -17,6 +17,8 @@ import { ComponentsComponent } from './components/components.component';
 import { SairComponent } from './components/sair/sair.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
+
 //Imports para componentes do Angular Material
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatPaginatorModule } from '@angular/material/paginator'
@@ -40,6 +42,14 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSortModule} from '@angular/material/sort';
 import {NgFor} from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatChipsModule} from '@angular/material/chips';
+import { CommonModule } from '@angular/common';
+import {FormsModule} from '@angular/forms';
+
+
+
+
+
 
 
 
@@ -53,7 +63,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AppComponent,
     NavComponent,
     ReservasComponent,
-    CadastrosComponent,
     FaturamentoComponent,
     EntradaDeNotasComponent,
     FinanceiroComponent,
@@ -64,6 +73,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     SairComponent,
     HomeComponent,
     ReservasComponent,
+    CadastrosComponent
     
     
     
@@ -93,6 +103,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatSortModule,
     NgFor,
     FlexLayoutModule,
+    MatChipsModule,
+    CommonModule,
+    FormsModule,
+    
+
+
+    
   
     
     
